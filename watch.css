@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+    background: #000;
+ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box{
+    height: 40vh;
+    width: 40vw;
+    background-color:white;
+    color: #000;
+    row-gap: 40px;
+    border-radius:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  
+
+}
+.but{
+    display: flex;
+    column-gap: 40px;
+}
+
+.but > button{
+    border-radius: 20px;
+    border-inline-end-style: dashed;
+    height: 5vh;
+    width: 8vw;
+    cursor: pointer;
+
+}
